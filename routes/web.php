@@ -19,4 +19,5 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('about0215');
 });
-Route::get('/buku', 'App\Http\Controllers\BukuController@index');
+Route::get('/buku', 'App\Http\Controllers\Data_1461900215Controller@index');
+Route::get('/export-excel', 'App\Http\Controllers\UsersController@export');

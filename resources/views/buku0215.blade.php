@@ -6,6 +6,7 @@
     <div class="row">
         <div class="col-7">
             <h1 class='mt-3'>Daftar Buku</h1>
+            <a href="export-excel">download xls</a>
 
             <table class="table">
                 <thead class="table-dark">
